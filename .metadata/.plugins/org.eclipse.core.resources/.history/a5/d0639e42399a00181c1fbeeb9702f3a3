@@ -1,0 +1,30 @@
+<%@page import="com.cg.myServlet.pojo.Resume"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+   Resume resume = (Resume)request.getAttribute("ResumeRequest"); 
+ %>
+
+<%=resume.getFirstName()%>
+<%=resume.getLastName()%>
+<%=resume.getGender()%>
+<%=resume.getHighestQualification()%>
+<%=resume.getDateOfBirth()%>
+<%=resume.getHobbies()%>
+<%=resume.getAddress()%>
+<%=resume.getPhoto()%>
+<%=resume.getSkills()%>
+<%=resume.getEmail()%>
+<%=resume.getWebsite()%>
+<%=resume.getContactNo()%>
+<%=resume.getSummary()%> 
+
+</body>
+</html>

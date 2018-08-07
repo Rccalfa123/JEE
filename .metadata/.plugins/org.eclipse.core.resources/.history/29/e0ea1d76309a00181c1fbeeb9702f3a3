@@ -1,0 +1,7 @@
+package com.cg.myServlet.resume;
+
+public class Resume {
+private String firstName;
+private String lasteName;
+	
+}

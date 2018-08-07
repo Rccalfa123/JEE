@@ -1,0 +1,33 @@
+
+Aug 07, 2018 14:50:48.50 NEW SESSION
+Aug 07, 2018 14:50:48.50 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:48.51 [8092:5608:0807/145048.428:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 14:50:50.55 [8092:5608:0807/145050.553:ERROR:gpu_process_transport_factory.cc(1016)] Lost UI shared context.
+Aug 07, 2018 14:51:33.21 Unable to read VR Path Registry from P:\Users\aullah\AppData\Local\openvr\openvrpaths.vrpath
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:36.88 [8992:6072:0807/162236.868:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+Aug 07, 2018 16:22:39.29 [8992:6072:0807/162239.272:ERROR:gpu_process_transport_factory.cc(1016)] Lost UI shared context.
+Aug 07, 2018 16:23:21.76 Unable to read VR Path Registry from P:\Users\aullah\AppData\Local\openvr\openvrpaths.vrpath
+Aug 07, 2018 17:58:38.53 [8992:6072:0807/175838.469:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 0.011 s for parse_start 0 s
+Aug 07, 2018 17:58:39.51 [8992:6072:0807/175839.517:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 0.011 s for parse_start 0 s
+Aug 07, 2018 17:58:40.03 [8992:6072:0807/175840.030:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 0.011 s for parse_start 0 s
+Aug 07, 2018 17:58:40.03 [8992:6072:0807/175840.030:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 0.011 s for parse_start 0 s
+Aug 07, 2018 18:04:53.16 [8992:6072:0807/180453.165:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 18:04:54.17 [8992:6072:0807/180454.172:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 18:04:54.62 [8992:6072:0807/180454.621:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 18:04:54.62 [8992:6072:0807/180454.621:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 18:04:59.13 [8992:6072:0807/180459.132:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 18:04:59.13 [8992:6072:0807/180459.132:ERROR:page_load_metrics_update_dispatcher.cc(75)] Invalid response_start 1.076 s for parse_start 1.072 s
+Aug 07, 2018 19:04:37.40 [8992:7132:0807/190437.398:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\content_renderer.service.exe

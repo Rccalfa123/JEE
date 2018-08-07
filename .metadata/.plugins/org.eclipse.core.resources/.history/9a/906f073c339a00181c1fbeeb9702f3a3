@@ -1,0 +1,23 @@
+package com.cg.myServlet.pojo;
+
+import java.time.LocalDate;
+
+public class Resume {
+private String firstName;
+private String lasteName;
+private String gender;
+private String highestQualification;
+private LocalDate dateOfBirth;
+private String[] Hobbies;   ;
+private String Address;
+private String photo;
+private String[] skills;
+private String email;
+private String Website;
+private long contactNo;
+private String summary;
+
+
+
+  
+}

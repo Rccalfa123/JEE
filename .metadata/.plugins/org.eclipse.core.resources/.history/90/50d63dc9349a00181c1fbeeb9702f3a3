@@ -1,0 +1,46 @@
+package com.cg.myServelet.controller;
+
+import java.io.IOException;
+import java.time.LocalDate;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.catalina.servlet4preview.RequestDispatcher;
+
+import com.cg.myServlet.pojo.Resume;
+
+
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String firstName = request.getParameter("fname");
+		String lastName = request.getParameter("lname");
+		String gender = request.getParameter("gender");
+		String highestQualification = request.getParameter("qualification");
+		String dateOfBirth = request.getParameter("dob");
+		String hobbies[] = request.getParameterValues("hobbies");
+		String address = request.getParameter("address");
+		String photo = request.getParameter("photo");
+		String skills[] = request.getParameterValues("skills");
+		String email = request.getParameter("email");
+		String website = request.getParameter("website");
+		String contactNo = request.getParameter("contact_no");
+		String summary = request.getParameter("summary");
+	
+	    Resume resume = new Resume(firstName, lastName, gender, highestQualification, dateOfBirth, hobbies, address, photo, skills, email, website, contactNo, summary);
+	
+	   RequestDispatcher requestDispatcher = request.getRequestDispatcher("");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

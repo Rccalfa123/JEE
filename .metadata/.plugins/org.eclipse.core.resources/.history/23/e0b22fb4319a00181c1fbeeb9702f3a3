@@ -1,0 +1,63 @@
+package com.cg.myServlet.pojo;
+
+import java.time.LocalDate;
+
+public class Resume {
+private String firstName;
+private String lasteName;
+private String gender;
+private String highestQualification;
+private LocalDate dateOfBirth;
+private String[] Hobbies;   ;
+private String Address;
+private String photo;
+private String[] skills;
+private String email;
+private String Website;
+private long contactNo;
+private String summary;
+
+
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+public void setLasteName(String lasteName) {
+	this.lasteName = lasteName;
+}
+public void setGender(String gender) {
+	this.gender = gender;
+}
+public void setHighestQualification(String highestQualification) {
+	this.highestQualification = highestQualification;
+}
+public void setDateOfBirth(LocalDate dateOfBirth) {
+	this.dateOfBirth = dateOfBirth;
+}
+public void setHobbies(String[] hobbies) {
+	Hobbies = hobbies;
+}
+public void setAddress(String address) {
+	Address = address;
+}
+public void setPhoto(String photo) {
+	this.photo = photo;
+}
+public void setSkills(String[] skills) {
+	this.skills = skills;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+public void setWebsite(String website) {
+	Website = website;
+}
+public void setContactNo(long contactNo) {
+	this.contactNo = contactNo;
+}
+public void setSummary(String summary) {
+	this.summary = summary;
+}
+
+
+  
+}

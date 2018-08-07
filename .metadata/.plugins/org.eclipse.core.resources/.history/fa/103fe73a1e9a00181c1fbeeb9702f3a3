@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume</title>
+</head>
+<body>
+   <form action="ms1.java" method="get">
+   <h1 align="center"> RESUME </h1><br>
+  <table>
+   <tr><td>First Name </td><td><input type="text" name="fname"><br><br></td></tr>
+   
+   <tr><td>Last Name  <input type="text" name="lname"><br><br></td></tr>
+   
+   Gender <input type="radio" name = "gender" value="male" checked="checked">Male 
+   		  <input type="radio" name = "gender" value="female" checked="checked">Female
+   		  <input type="radio" name = "gender" value="others" checked="checked">Others<br><br>	
+   
+   Highest Qualification <select name = "Qualification">
+            <option value="matriculation">Matriculation</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="bachaolor_degree">Bachaelor Degree</option>
+            <option value="masters">Masters</option>
+ 
+   			</select> <br><br>
+   
+   Date of Birth <input type="date" name="dob"> <br><br>
+   
+   Hobbies <select multiple  name = "hobbies">
+            <option value="singing">Singing</option>
+            <option value="dancing">Dancing</option>
+            <option value="reading">Reading</option>
+            <option value="sleeping">Sleeping</option>
+            <option value="eating">Eating</option>
+            <option value="video_games">Video Games</option> 
+ 
+   			</select><br><br>
+   
+   Address <textarea name="address"   rows="4" cols="30"></textarea><br><br>
+   
+   Photo	<input type="file"  name="photo">	<br><br>
+   
+   
+   Skills    <input type="checkbox" name="skills" value="c"> C 
+   			 <input type="checkbox" name="skills" value="c++"> C++ 
+   			 <input type="checkbox" name="skills" value="java"> Java 
+  			 <input type="checkbox" name="skills" value=".net"> .Net 
+  			 <input type="checkbox" name="skills" value="mysql"> MySql 
+   			 <input type="checkbox" name="skills" value="dbms"> DBMS 
+   			 <input type="checkbox" name="skills" value="python"> Python <br><br>
+
+  Email    <input type="email"  name="email"> <br><br>
+  
+  Website  <input type="url" name="website"><br><br>
+  
+  Contact No <input type="text" name="contact_no"> <br><br>
+  
+  Summary  <textarea name="summary"   rows="4" cols="30"></textarea><br><br>
+   
+   <div>  <input type="reset" value="Clear"> <input type="submit" value="Submit"> </div>
+  </table> 
+ </form>
+     
+
+</body>
+</html>
