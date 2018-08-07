@@ -20,8 +20,10 @@ table{
    Resume resume = (Resume)request.getAttribute("ResumeRequest"); 
  %>
  
+ <div></div>
+ 
  <table align="center" cellspacing="20">
-   <tr><td>First Name </td><td><%=resume.getFirstName()%></td></tr>
+   <tr><td>First Name </td><td><%=resume.getFirstName()%></td> <td> <img alt="" width="100" height="100"   src="<%=resume.getPhoto()%>"></td></tr>
    
    <tr><td>Last Name</td> <td> <%=resume.getLastName()%></td></tr>
    
@@ -39,10 +41,7 @@ table{
    </td></tr>
    
    <tr><td>Address</td><td><%=resume.getAddress()%> </td></tr>
-   
-   <tr><td>Photo</td><td><%=resume.getPhoto()%></td></tr>
-   
-   
+     
    <tr><td>Skills </td><td>
      <%for(String skill:resume.getSkills()){
 				%><%=skill%>&nbsp&nbsp&nbsp&nbsp<% 

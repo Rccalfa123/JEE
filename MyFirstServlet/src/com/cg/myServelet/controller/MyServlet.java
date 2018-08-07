@@ -11,13 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.cg.myServlet.pojo.Resume;
 
-
+//This is a controller which will receive all requests from HTML
 @WebServlet("/MyServlet")
 public class MyServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// getting all parameters from form
 		String firstName = request.getParameter("fname");
 		String lastName = request.getParameter("lname");
 		String gender = request.getParameter("gender");
@@ -31,37 +32,23 @@ public class MyServlet extends HttpServlet {
 		String website = request.getParameter("website");
 		String contactNo = request.getParameter("contact_no");
 		String summary = request.getParameter("summary");
-	
-//		Part part = request.getPart("photo");
-//		String fileName = extractFileName(part);
-//		String savePath = "P:\\aullah\\JEE\\MyFirstServlet\\WebContent\\Images"+File.separator+ fileName;
-//		File fileSaveDir = new File(savePath);			
-//		part.write(savePath + File.separator);
+
+		//Create resume object with parameterized constructor
+		Resume resume = new Resume(firstName, lastName, gender, highestQualification, dateOfBirth, hobbies, address,
+				photo, skills, email, website, contactNo, summary);
+
+		//setting attribute in request so that it could be passed to other servlet
+		request.setAttribute("ResumeRequest", resume);
 		
-	    Resume resume = new Resume(firstName, lastName, gender, highestQualification, dateOfBirth, hobbies, address, photo, skills, email, website, contactNo, summary);
-	
-	    request.setAttribute("ResumeRequest", resume);
-	    
-	    RequestDispatcher dispatcher = request.getRequestDispatcher("ResumeService.jsp");
-	    
-	    dispatcher.forward(request, response);
-	    
+		//Creating request dispatcher to dispatch data 
+		RequestDispatcher dispatcher = request.getRequestDispatcher("ResumeService.jsp");
+
+		dispatcher.forward(request, response);
+
 	}
 
-//	private String extractFileName(Part part) {
-//		String contentDisp = part.getHeader("content-disposition");
-//		String[] item = contentDisp.split(";");
-//		  for(String s : item)
-//		  {
-//			  if(s.trim().startsWith("filename"))
-//			  {
-//				  return s.substring(s.indexOf("=") + 2,s.length() - 1);
-//			  }
-//		  }
-//		return "";
-//	}
-
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		doGet(request, response);
 	}
 
